@@ -71,6 +71,7 @@ public class SampleActivity extends BaseActivity{
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
